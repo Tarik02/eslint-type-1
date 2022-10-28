@@ -1,4 +1,4 @@
-name: Publish to NPM
+name: Release
 on:
   push:
     tags:
@@ -38,8 +38,6 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     - name: Create a Release
-      uses: elgohr/Github-Release-Action@v4
-      env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      uses: ncipollo/release-action@v1
       with:
-        title: Release ${{ github.ref_name }}
+        token: ${{ secrets.RELEASE_TOKEN }}
