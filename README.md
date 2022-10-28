@@ -2,16 +2,16 @@
 
 ![Check](https://github.com/Tarik02/eslint-type-1/actions/workflows/check.yml/badge.svg)
 ![Publish to NPM](https://github.com/Tarik02/eslint-type-1/actions/workflows/publish-to-npm.yml/badge.svg)
-[![npm version](https://badge.fury.io/js/eslint-type-1.svg)](https://badge.fury.io/js/eslint-type-1)
 
-## Installation
+## Core package
+
+[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-type-1.svg)](https://badge.fury.io/js/@tarik02%2Feslint-type-1)
 
 ```bash
 $ yarn add --dev eslint @tarik02/eslint-type-1
 ```
 
-## Preset config
-
+.eslintrc:
 ```json
 {
     "extends": [
@@ -25,12 +25,16 @@ $ yarn add --dev eslint @tarik02/eslint-type-1
 
 ## Presets
 
+
 ### Import
+
+[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-type-1-import.svg)](https://badge.fury.io/js/@tarik02%2Feslint-type-1-import)
 
 ```bash
 $ yarn add @tarik02/eslint-type-1-import
 ```
 
+.eslintrc:
 ```json
 {
     "extends": [
@@ -79,12 +83,16 @@ $ yarn add @tarik02/eslint-type-1-import
 }
 ```
 
+
 ### React
+
+[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-type-1-import.svg)](https://badge.fury.io/js/@tarik02%2Feslint-type-1-import)
 
 ```bash
 $ yarn add @tarik02/eslint-type-1-react
 ```
 
+.eslintrc:
 ```json
 {
     "extends": [
@@ -97,6 +105,7 @@ $ yarn add @tarik02/eslint-type-1-react
     }
 }
 ```
+
 
 ## License
 
