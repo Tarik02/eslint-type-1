@@ -1,0 +1,13 @@
+{
+    "name": "@tarik02/eslint-type-1-react",
+    "version": "",
+    "type": "commonjs",
+    "peerDependencies": {
+        "eslint": ">=8"
+    },
+    "dependencies": {
+        "eslint-plugin-react": "^7.31.10",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-redux": "^4.0.0"
+    }
+}

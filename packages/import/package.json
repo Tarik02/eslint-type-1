@@ -1,0 +1,12 @@
+{
+    "name": "@tarik02/eslint-type-1-import",
+    "version": "",
+    "type": "commonjs",
+    "peerDependencies": {
+        "eslint": ">=8"
+    },
+    "dependencies": {
+        "eslint-import-resolver-typescript": "^3.5.2",
+        "eslint-plugin-import": "^2.26.0"
+    }
+}

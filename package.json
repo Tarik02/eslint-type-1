@@ -1,0 +1,24 @@
+{
+  "name": "eslint-type-1",
+  "version": "",
+  "packageManager": "yarn@3.2.4",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "prepack": "yarn lint && yarn test",
+    "lint": "eslint packages/**/*.js",
+    "test": "eslint tests/**/*"
+  },
+  "devDependencies": {
+    "@tarik02/eslint-type-1": "workspace:*",
+    "@tarik02/eslint-type-1-import": "workspace:*",
+    "@tarik02/eslint-type-1-react": "workspace:*",
+    "@types/node": "^18.11.7",
+    "eslint": "^8.26.0",
+    "globby": "^13.1.2",
+    "react": "^18.2.0",
+    "typescript": "^4.8.4"
+  }
+}
