@@ -1,7 +1,7 @@
 # eslint-type-1
 
 ![Check](https://github.com/Tarik02/eslint-type-1/actions/workflows/check.yml/badge.svg)
-![Publish to NPM](https://github.com/Tarik02/eslint-type-1/actions/workflows/publish-to-npm.yml/badge.svg)
+![Release](https://github.com/Tarik02/eslint-type-1/actions/workflows/release.yml/badge.svg)
 
 ## Core package
 
