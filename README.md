@@ -86,7 +86,7 @@ $ yarn add @tarik02/eslint-type-1-import
 
 ### React
 
-[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-type-1-import.svg)](https://badge.fury.io/js/@tarik02%2Feslint-type-1-import)
+[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-type-1-react.svg)](https://badge.fury.io/js/@tarik02%2Feslint-type-1-react)
 
 ```bash
 $ yarn add @tarik02/eslint-type-1-react
