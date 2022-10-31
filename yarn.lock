@@ -88,9 +88,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tarik02/eslint-type-1-import@workspace:*, @tarik02/eslint-type-1-import@workspace:packages/import":
+"@tarik02/eslint-config-type-1-import@workspace:*, @tarik02/eslint-config-type-1-import@workspace:packages/import":
   version: 0.0.0-use.local
-  resolution: "@tarik02/eslint-type-1-import@workspace:packages/import"
+  resolution: "@tarik02/eslint-config-type-1-import@workspace:packages/import"
   dependencies:
     eslint-import-resolver-typescript: ^3.5.2
     eslint-plugin-import: ^2.26.0
@@ -99,9 +99,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tarik02/eslint-type-1-react@workspace:*, @tarik02/eslint-type-1-react@workspace:packages/react":
+"@tarik02/eslint-config-type-1-react@workspace:*, @tarik02/eslint-config-type-1-react@workspace:packages/react":
   version: 0.0.0-use.local
-  resolution: "@tarik02/eslint-type-1-react@workspace:packages/react"
+  resolution: "@tarik02/eslint-config-type-1-react@workspace:packages/react"
   dependencies:
     eslint-plugin-react: ^7.31.10
     eslint-plugin-react-hooks: ^4.6.0
@@ -111,9 +111,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tarik02/eslint-type-1@workspace:*, @tarik02/eslint-type-1@workspace:packages/core":
+"@tarik02/eslint-config-type-1@workspace:*, @tarik02/eslint-config-type-1@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "@tarik02/eslint-type-1@workspace:packages/core"
+  resolution: "@tarik02/eslint-config-type-1@workspace:packages/core"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^5.41.0
     "@typescript-eslint/parser": ^5.41.0
@@ -604,6 +604,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-type-1@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "eslint-config-type-1@workspace:."
+  dependencies:
+    "@tarik02/eslint-config-type-1": "workspace:*"
+    "@tarik02/eslint-config-type-1-import": "workspace:*"
+    "@tarik02/eslint-config-type-1-react": "workspace:*"
+    "@types/node": ^18.11.7
+    eslint: ^8.26.0
+    globby: ^13.1.2
+    react: ^18.2.0
+    typescript: ^4.8.4
+  languageName: unknown
+  linkType: soft
+
 "eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
@@ -739,21 +754,6 @@ __metadata:
   checksum: 9f6e974ab2db641ca8ab13508c405b7b859e72afe9f254e8131ff154d2f40c99ad4545ce326fd9fde3212ff29707102562a4834f1c48617b35d98c71a97fbf3e
   languageName: node
   linkType: hard
-
-"eslint-type-1@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "eslint-type-1@workspace:."
-  dependencies:
-    "@tarik02/eslint-type-1": "workspace:*"
-    "@tarik02/eslint-type-1-import": "workspace:*"
-    "@tarik02/eslint-type-1-react": "workspace:*"
-    "@types/node": ^18.11.7
-    eslint: ^8.26.0
-    globby: ^13.1.2
-    react: ^18.2.0
-    typescript: ^4.8.4
-  languageName: unknown
-  linkType: soft
 
 "eslint-utils@npm:^3.0.0":
   version: 3.0.0

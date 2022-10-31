@@ -1,21 +1,21 @@
-# eslint-type-1
+# eslint-config-type-1
 
-![Check](https://github.com/Tarik02/eslint-type-1/actions/workflows/check.yml/badge.svg)
-![Release](https://github.com/Tarik02/eslint-type-1/actions/workflows/release.yml/badge.svg)
+![Check](https://github.com/Tarik02/eslint-config-type-1/actions/workflows/check.yml/badge.svg)
+![Release](https://github.com/Tarik02/eslint-config-type-1/actions/workflows/release.yml/badge.svg)
 
 ## Core package
 
-[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-type-1.svg)](https://badge.fury.io/js/@tarik02%2Feslint-type-1)
+[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1.svg)](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1)
 
 ```bash
-$ yarn add --dev eslint @tarik02/eslint-type-1
+$ yarn add --dev eslint @tarik02/eslint-config-type-1
 ```
 
 .eslintrc:
 ```json
 {
     "extends": [
-        "@tarik02/eslint-type-1"
+        "@tarik02/eslint-config-type-1"
     ],
     "env": {
         "browser": true
@@ -28,17 +28,17 @@ $ yarn add --dev eslint @tarik02/eslint-type-1
 
 ### Import
 
-[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-type-1-import.svg)](https://badge.fury.io/js/@tarik02%2Feslint-type-1-import)
+[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-import.svg)](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-import)
 
 ```bash
-$ yarn add @tarik02/eslint-type-1-import
+$ yarn add @tarik02/eslint-config-type-1-import
 ```
 
 .eslintrc:
 ```json
 {
     "extends": [
-        "@tarik02/eslint-type-1-import"
+        "@tarik02/eslint-config-type-1-import"
     ],
     "settings": {
         "import/resolver": {
@@ -86,17 +86,17 @@ $ yarn add @tarik02/eslint-type-1-import
 
 ### React
 
-[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-type-1-react.svg)](https://badge.fury.io/js/@tarik02%2Feslint-type-1-react)
+[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-react.svg)](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-react)
 
 ```bash
-$ yarn add @tarik02/eslint-type-1-react
+$ yarn add @tarik02/eslint-config-type-1-react
 ```
 
 .eslintrc:
 ```json
 {
     "extends": [
-        "@tarik02/eslint-type-1-react"
+        "@tarik02/eslint-config-type-1-react"
     ],
     "settings": {
         "react": {

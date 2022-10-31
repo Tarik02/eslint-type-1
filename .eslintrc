@@ -1,8 +1,8 @@
 {
     "extends": [
-        "./packages/core/index.js",
-        "./packages/import/index.js",
-        "./packages/react/index.js"
+        "@tarik02/eslint-config-type-1",
+        "@tarik02/eslint-config-type-1-import",
+        "@tarik02/eslint-config-type-1-react"
     ],
     "env": {
         "node": true
