@@ -29,6 +29,11 @@ module.exports = {
             'never'
         ],
 
+        'comma-spacing': 'off',
+        '@typescript-eslint/comma-spacing': [
+            'error'
+        ],
+
         'semi': 'off',
         '@typescript-eslint/semi': [
             'error',
@@ -41,7 +46,8 @@ module.exports = {
             4
         ],
 
-        'space-before-function-paren': [
+        'space-before-function-paren': 'off',
+        '@typescript-eslint/space-before-function-paren': [
             'error',
             {
                 anonymous: 'never',
@@ -49,12 +55,15 @@ module.exports = {
                 asyncArrow: 'always'
             }
         ],
-        'space-infix-ops': [
+
+        'space-infix-ops': 'off',
+        '@typescript-eslint/space-infix-ops': [
             'error',
             {
                 int32Hint: false
             }
         ],
+
         'space-unary-ops': [
             'error',
             {
@@ -62,10 +71,13 @@ module.exports = {
                 nonwords: false
             }
         ],
-        'object-curly-spacing': [
+
+        'object-curly-spacing': 'off',
+        '@typescript-eslint/object-curly-spacing': [
             'error',
             'always'
         ],
+
         'array-bracket-spacing': [
             'error',
             'always'
@@ -78,6 +90,20 @@ module.exports = {
             'error'
         ],
 
+        'space-before-blocks': 'off',
+        '@typescript-eslint/space-before-blocks': [
+            'error'
+        ],
+
+        'keyword-spacing': 'off',
+        '@typescript-eslint/keyword-spacing': [
+            'error'
+        ],
+
+        'computed-property-spacing': [
+            'error',
+            'always'
+        ],
         'dot-notation': [
             'error'
         ],
