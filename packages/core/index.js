@@ -142,6 +142,12 @@ module.exports = {
                 },
                 multilineDetection: 'brackets'
             }
+        ],
+        'no-multiple-empty-lines': [
+            'error',
+            {
+                max: 1
+            }
         ]
     }
 };
