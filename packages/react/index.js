@@ -63,6 +63,9 @@ module.exports = {
         ],
         'react/jsx-no-constructed-context-values': [
             'error'
+        ],
+        'react/jsx-curly-brace-presence': [
+            'error'
         ]
     }
 };
