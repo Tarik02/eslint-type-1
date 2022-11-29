@@ -23,6 +23,9 @@ module.exports = {
             'error'
         ],
 
+        'curly': 'error',
+        'brace-style': 'error',
+
         'comma-dangle': 'off',
         '@typescript-eslint/comma-dangle': [
             'error',
