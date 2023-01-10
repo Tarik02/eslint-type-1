@@ -25,6 +25,7 @@ module.exports = {
 
         'curly': 'error',
         'brace-style': 'error',
+        'no-multi-spaces': 'error',
 
         'comma-dangle': 'off',
         '@typescript-eslint/comma-dangle': [
@@ -46,7 +47,15 @@ module.exports = {
         'indent': 'off',
         '@typescript-eslint/indent': [
             'error',
-            4
+            4,
+            {
+                ignoredNodes: [
+                    'PropertyDefinition[decorators]',
+                    'TSUnionType',
+                    'TSTypeParameterInstantiation',
+                    'TSIntersectionType'
+                ]
+            }
         ],
 
         'space-before-function-paren': 'off',
@@ -121,6 +130,12 @@ module.exports = {
         'quote-props': [
             'error',
             'consistent-as-needed'
+        ],
+        'key-spacing': [
+            'error'
+        ],
+        'no-whitespace-before-property': [
+            'error'
         ],
 
         'arrow-parens': [
