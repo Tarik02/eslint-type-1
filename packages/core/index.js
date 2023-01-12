@@ -49,6 +49,7 @@ module.exports = {
             'error',
             4,
             {
+                SwitchCase: 1,
                 ignoredNodes: [
                     'PropertyDefinition[decorators]',
                     'TSUnionType',
