@@ -169,6 +169,8 @@ module.exports = {
             }
         ],
 
-        '@typescript-eslint/no-this-alias': 'off'
+        '@typescript-eslint/no-this-alias': 'off',
+
+        'no-cond-assign': 'off'
     }
 };

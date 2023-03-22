@@ -110,7 +110,8 @@ module.exports = {
                 ]
             }
         ],
-        'vue/no-lone-template': 'off'
+        'vue/no-lone-template': 'off',
+        'vue/no-mutating-props': 'off'
     },
     overrides: [
         {
