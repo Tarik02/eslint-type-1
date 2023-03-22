@@ -11,7 +11,7 @@
 $ yarn add --dev eslint @tarik02/eslint-config-type-1
 ```
 
-.eslintrc:
+.eslintrc.json:
 ```json
 {
     "extends": [
@@ -31,10 +31,10 @@ $ yarn add --dev eslint @tarik02/eslint-config-type-1
 [![npm version](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-import.svg)](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-import)
 
 ```bash
-$ yarn add @tarik02/eslint-config-type-1-import
+$ yarn add --dev @tarik02/eslint-config-type-1-import
 ```
 
-.eslintrc:
+.eslintrc.json:
 ```json
 {
     "extends": [
@@ -89,10 +89,10 @@ $ yarn add @tarik02/eslint-config-type-1-import
 [![npm version](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-react.svg)](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-react)
 
 ```bash
-$ yarn add @tarik02/eslint-config-type-1-react
+$ yarn add --dev @tarik02/eslint-config-type-1-react
 ```
 
-.eslintrc:
+.eslintrc.json:
 ```json
 {
     "extends": [
@@ -103,6 +103,24 @@ $ yarn add @tarik02/eslint-config-type-1-react
             "version": "18"
         }
     }
+}
+```
+
+
+### Vue
+
+[![npm version](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-vue.svg)](https://badge.fury.io/js/@tarik02%2Feslint-config-type-1-vue)
+
+```bash
+$ yarn add --dev @tarik02/eslint-config-type-1-vue
+```
+
+.eslintrc.json:
+```json
+{
+    "extends": [
+        "@tarik02/eslint-config-type-1-vue"
+    ]
 }
 ```
 

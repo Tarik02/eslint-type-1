@@ -6,7 +6,7 @@
         "eslint": ">=8"
     },
     "dependencies": {
-        "eslint-import-resolver-typescript": "^3.5.2",
-        "eslint-plugin-import": "^2.26.0"
+        "eslint-import-resolver-typescript": "^3.5.3",
+        "eslint-plugin-import": "^2.27.5"
     }
 }

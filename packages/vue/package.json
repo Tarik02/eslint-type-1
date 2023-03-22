@@ -1,0 +1,12 @@
+{
+    "name": "@tarik02/eslint-config-type-1-vue",
+    "version": "",
+    "type": "commonjs",
+    "peerDependencies": {
+        "eslint": ">=8"
+    },
+    "dependencies": {
+        "eslint-plugin-vue": "^9.9.0",
+        "vue-eslint-parser": "^9.1.0"
+    }
+}

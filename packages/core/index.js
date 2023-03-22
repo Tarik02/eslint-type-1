@@ -167,6 +167,8 @@ module.exports = {
             {
                 max: 1
             }
-        ]
+        ],
+
+        '@typescript-eslint/no-this-alias': 'off'
     }
 };
